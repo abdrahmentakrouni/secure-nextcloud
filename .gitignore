@@ -1,0 +1,12 @@
+# Secrets - never commit real values
+.env
+
+# TLS material
+certs/
+
+# Backups contain all company data
+backups/
+
+# Local logs / CI failure dumps
+*.log
+compose-logs.txt
